@@ -1,19 +1,20 @@
 
-def PrintVertical(n,c):
+def PrintVertical(n, c):
     for i in range(n):
         print(c)
 
-def PrintHorizontal(n,c):
+
+def PrintHorizontal(n, c):
     for i in range(n):
         print(c, end='')
-    
-    
+
 
 def main():
-    n = input('Enter a number: ')
+    n = input('Enter length: ')
     c = '*'
-    PrintVertical(int(n),c)
+    PrintVertical(int(n), c)
     print()
-    PrintHorizontal(int(n),c)
-    
+    PrintHorizontal(int(n), c)
+
+
 main()
