@@ -3,6 +3,7 @@ def main():
     c = '*'
     filledupsidedowntriangle(h, c)
     filledtriangle(h, c)
+    print()
 
 
 def filledtriangle(h, c, s=' '):
@@ -21,6 +22,5 @@ def filledupsidedowntriangle(h, c, s=' '):
         for k in range(2*(h-i)-1):
             print(c, end='')
         print()
-
-
+        
 main()
