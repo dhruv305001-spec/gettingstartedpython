@@ -1,9 +1,9 @@
 def main():
     n = int(input("Enter number of Fibonacci numbers : "))
-    fibanachi(n)
+    fibonacci(n)
 
 
-def fibanachi(n):
+def fibonacci(n):
     num1 = 0
     num2 = 1
     for i in range(n):
